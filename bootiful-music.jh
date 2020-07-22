@@ -5,6 +5,7 @@ application {
     packageName com.jhipster.demo.bootifulmusic,
     databaseType neo4j,
     devDatabaseType neo4j,
+    buildTool gradle,
     prodDatabaseType neo4j,
     enableHibernateCache false,
     testFrameworks [protractor]

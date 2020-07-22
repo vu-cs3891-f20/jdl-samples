@@ -8,6 +8,7 @@ entity Label {
 
 application {
   config {
+    buildTool gradle,
     prodDatabaseType postgresql,
   }
 }
@@ -40,7 +41,7 @@ relationship ManyToOne {
 
 relationship OneToMany {
   Comment{parent} to Comment{child}
-  Ticket to Attachment 
+  Ticket to Attachment
 }
 
 enum Status {
@@ -54,7 +55,7 @@ enum Status {
   SOLVED("Solved")
   WONT_IMPLEMENT("Won't Implement")
   VERIFIED("Verified")
-  
+
 }
 
 enum Type {

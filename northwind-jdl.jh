@@ -6,6 +6,7 @@ Will add relationships soon.
 
 application {
   config {
+    buildTool gradle,
     prodDatabaseType postgresql,
   }
 }

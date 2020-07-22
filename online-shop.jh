@@ -5,6 +5,7 @@
 
 application {
   config {
+    buildTool gradle,
     prodDatabaseType postgresql,
   }
 }

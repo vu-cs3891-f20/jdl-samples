@@ -6,7 +6,7 @@ application {
     packageName com.sgaraba.library,
     prodDatabaseType postgresql,
     cacheProvider hazelcast,
-    buildTool maven,
+    buildTool gradle,
     clientFramework angular,
     useSass true,
     testFrameworks [protractor],

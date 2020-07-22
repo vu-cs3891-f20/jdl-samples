@@ -3,6 +3,12 @@
 // This is the entity model for for the Oracle Humar Resources sample
 //
 
+application {
+  config {
+    buildTool gradle,
+  }
+}
+
 entity Region {
 	regionName String
 }

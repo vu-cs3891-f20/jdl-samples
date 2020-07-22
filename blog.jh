@@ -5,7 +5,7 @@ application {
     packageName com.jhipster.demo.blog,
     prodDatabaseType mysql,
     cacheProvider hazelcast,
-    buildTool maven,
+    buildTool gradle,
     clientFramework react,
     useSass true,
     testFrameworks [protractor]
